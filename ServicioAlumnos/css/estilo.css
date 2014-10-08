@@ -1,0 +1,26 @@
+﻿* {
+    margin: 0px auto;
+}
+
+#contenidoTotal {    
+    background-color: pink;
+    width: 800px;
+}
+#contenido3 {
+    background-color: khaki;
+}
+#contenido4 {
+    background-color: azure;
+}
+table {
+    align-content: center;
+    background-color: beige;
+}
+
+h3,form{
+    text-align: center;
+}
+p {
+    margin-left: 100px;
+}
+

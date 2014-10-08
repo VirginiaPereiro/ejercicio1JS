@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Base de datos</title>
+    <link href="css/estilo.css" rel="stylesheet" />>
+</head>
+    <body>
+        <div id="contenidoTotal">
+            <div id="contenido3">
+                <h3>Base de datos alumnos</h3><br />
+                <p>Inserte alumno:</p><br />
+                <form>
+                    Nombre<input type="text" id="txtNombre" /><br />
+                    Edad<input type="number" id="txtEdad" /><br />
+                    Nota<input type="number" id="txtNota" /><br />
+                    <input type="hidden" value="" id="hdnId" />
+                    <input type="button" value="Guardar" id="btnGuardar" />
+                </form>
+                <div id="contenido"><br />
+                    <table id="tablaDatos"></table>
+                </div><br />
+            </div>
+            <div id="contenido4">
+                <h3>Base de datos cursos</h3><br />
+                <p>Inserte curso:</p><br />
+                <form>
+                    Nombre<input type="text" id="txtNombre2" /><br />
+                    Duración<input type="number" id="txtDuracion" /><br />
+                    Profesor<input type="text" id="txtProfesor" /><br />
+                    <input type="hidden" value="" id="hdnId2" />
+                    <input type="button" value="Guardar" id="btnGuardar2" />
+                </form>
+
+                <div id="contenido2">
+                    <table id="tablaDatos2"></table>
+                </div><br />
+            </div>
+        </div>
+        <script src="Scripts/Ajax1.js"></script>
+        <script src="Scripts/Ajax2.js"></script>
+    </body>
+</html>
