@@ -27,7 +27,7 @@ var cargarTabla = function(datos) {//como se ha eliminado la tabla ahora tendrem
 
         //creo un enlace en la celda 4
         var t4 = document.createElement("a");
-
+        //prueba
         t4.setAttribute("id", "Borrar-" + datos[i].id);//le fijo el atributo id para que no haya conflictos
         t4.setAttribute("href", "#");
         t4.onclick = borrar;
